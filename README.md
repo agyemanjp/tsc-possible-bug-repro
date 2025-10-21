@@ -5,7 +5,7 @@ QUICK START
 	3. Open a new VS Code window, and open the project root and all the source files in it. 
 	4. Verify that the VS Code window is using the same TYpescript version as is installed for the project
 	5. In the same VS Code window, click the menu item: View -> Problems. Note the type error(s)
-	5. Confirm that there is a discrepancy in the error list between 2 and 4
+	6. Confirm that there is a discrepancy in the error list between 2 and 5
 
 
 REQUIREMENTS
