@@ -1,0 +1,48 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.2.0/schema.json",
+	"formatter": {
+		"enabled": false
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"correctness": {
+				"useJsxKeyInIterable": "off",
+				"noConstructorReturn": "off",
+				"noUnreachable": "off"
+			},
+			"suspicious": {
+				"noExplicitAny": "off",
+				"noImplicitAnyLet": "off",
+				"noConfusingVoidType": "off",
+				"noFallthroughSwitchClause": "warn",
+				"noThenProperty": "off"
+			},
+			"complexity": {
+				"useLiteralKeys": "off",
+				"noBannedTypes": "off",
+				"noUselessLoneBlockStatements": "off",
+				"noUselessSwitchCase": "off",
+				"useArrowFunction": "off",
+				"noUselessFragments": "off"
+			},
+			"a11y": {
+				"noSvgWithoutTitle": "off",
+				"noLabelWithoutControl": "off",
+				"useKeyWithClickEvents": "off",
+				"noRedundantAlt": "off",
+				"useAltText": "off"
+			},
+			"style": {
+				"noUselessElse": "off",
+				"noNonNullAssertion": "off",
+				"noImplicitBoolean": "error",
+				"useNodejsImportProtocol": "off",
+				"noUnusedTemplateLiteral": "off"
+			}
+		}
+	},
+	"organizeImports": {
+		"enabled": false
+	}
+}

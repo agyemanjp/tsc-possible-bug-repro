@@ -1,0 +1,21 @@
+{
+	"name": "tsc-possible-bug-repro",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/bun": "1.2.20",
+		"@types/node": "24.2.0",
+		"@types/source-map-support": "0.5.2",
+		"typescript": "5.9.3"
+	},
+	"dependencies": {
+		"dotenv": "16.4.5",
+		"source-map-support": "0.5.21",
+		"tslib": "2.8.0"
+	},
+	"scripts": {
+		"//": "Comment: These commands are designed to be run from the project root, with bun or pnpm only.",
+		"deps": "rm -rf ./node_modules && pnpm install",
+		"clean": "rm -rf ./dist/* ./logs/* tsconfig.tsbuildinfo",
+		"tscheck": "tsc -p ./tsconfig.json --noEmit --pretty"
+	}
+}
